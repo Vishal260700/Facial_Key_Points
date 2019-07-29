@@ -1,13 +1,16 @@
-# Smart-Rockets
-Genetic Algorithm for 500 population of Rockets to reach a point in space.
+# Facial Key Points detection
 
-# Set-Up
-1. Clone the repo
-2. npm install live-server
-3. live-server in dir of code in terminal or cmd
+# Data
 
-# Live Demo
-https://vishal260700.github.io/games/Smart-Rockets/
+1.   IDLookUpTable.csv
+2.   Training.csv - Its has coordinates of facial keypoints like left eye, rigth eye etc and also the image.
+3.   Test.csv - Its has image only and we have to give coordinates of various facial keypoints by looking at IDLookUpTable.csv
 
-# Credits
-The credits to the demo goes to Daniel shiffmann, I inspired from his tutorial to create a similiar demo  https://www.youtube.com/watch?v=bGz7mv2vD6g&t=137s
+# Conclusion - 
+
+1.   The model is based on keras lib with Dense layers
+2.   The model, worked quite well on images in the shape we defiened.
+
+## Credits -
+
+1.   https://www.kaggle.com/karanjakhar/facial-keypoint-detection
